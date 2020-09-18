@@ -1,0 +1,121 @@
+.ex-1-square {
+    transition: background 2s;
+}
+
+.ex-1-square:hover {
+    background: red;
+}
+
+
+.ex-2-square {
+    transition: width 3s;
+}
+
+.ex-2-square:active {
+    width: 500px;
+}
+
+.ex-3-square {
+    transition: border-radius 1.2s;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+.ex-4-square {
+    transition: opacity 2s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+.ex-5-square {
+    transition: all 1s;
+}
+
+.ex-5-square:hover {
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active {
+
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-8-img {
+    transition: all 2s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(100%);
+    border-radius: 20px;
+}
+
+.ex-9-img {
+    transition: all 1.3s;
+}
+
+.ex-9-img:hover {
+    filter: opacity(0.7) hue-rotate(70deg);
+    border-radius: 30px;
+    transform: scale(1.6);
+}
+
+.ex-10-icon {
+    animation-name: spin;
+    animation-duration: infinite linear;
+
+}
+
+@@keyframes spin {
+    0% {0deg};
+    50% {180deg};
+    100% {360deg};
+}
+
+
+.ex-12-top-white:hover {
+    animation: blocchi 1.6s linear infinite alternate;
+}
+
+@@keyframes blocchi {
+
+    0% {top: -10px, left: 10px};
+    100% {top: -10px, left: 2px};
+}
+
+ {
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
+
+.ex-12-bottom-white {
+    position: absolute;
+    bottom: -10px;
+    right: 20%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
